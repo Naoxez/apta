@@ -1,0 +1,37 @@
+.header {
+    padding-top: 20px;
+}
+
+.header__col-left,
+.header__col-right {
+    width: 50%;
+}
+
+.header__col-right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: inline-block;
+    font-size: 0;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header__nav-link {
+    transition: color .3s;
+}
+
+.header__nav-link:hover {
+    color: #fff;
+}
+
+.header__nav-link:nth-child(n + 2) {
+    margin-top: 5px;
+}

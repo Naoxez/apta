@@ -1,0 +1,42 @@
+.hero {
+ padding-top: 11px;
+}
+
+.columns__h1     {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__title-columns {
+    width: 50%;
+}
+
+.hero__title-left h1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hero__title-right h1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.under_h1 {
+    font-family: 'Neue Montreal', sans-serif;
+    width: 278px;
+    height: 57px;
+    margin-top: 20px;
+    margin-left: 13px;
+    color: #ABAAA9;
+}
+
+.cover_img {
+    width: auto;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+
