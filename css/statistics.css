@@ -1,0 +1,79 @@
+.statistics {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.statistics__value {
+    width: 25%;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 45px;
+    position: relative;
+}
+
+.statistics__value::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #4A4A4A;
+    top: -5px;
+    left: -5px;
+}
+
+.statistics__value::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #4A4A4A;
+    bottom: -5px;
+    left: -5px;   
+}
+
+
+.last {
+    border-right: 1px solid;
+    position: relative;
+}
+
+.last__circles::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #4A4A4A;
+    top: -5px;
+    right: -5px;
+}
+
+.last__circles::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #4A4A4A;
+    right: -5px;
+    bottom: -5px;
+}
+
+
+.value__name--number {
+    margin: 25px;
+}
+
+.big {
+    margin-top: 90px;
+    font-size: 70px;
+}
+
+
+
+  
+
+

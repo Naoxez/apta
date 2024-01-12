@@ -1,0 +1,70 @@
+.list {
+    margin-top: 150px;
+}
+
+.list__col-left {
+    width: 50%;
+}
+
+.list__col-right {
+    width: 50%;
+}
+
+
+.item {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.list__col-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list__section-number {
+    font-size: 22px;
+    letter-spacing: -0.22px;
+}
+
+.list__section-name {
+    font-size: 22px;
+    font-weight: 500;
+    width: 273px;
+}
+
+
+.list__section-description {
+    width: 360px;
+    line-height: 120%;
+}
+
+.last_border {
+padding-bottom: 25px;
+border-bottom: 1px solid;
+}   
+
+.color_item {
+    cursor: pointer;
+    position: relative;
+}
+
+.color_item:hover {
+    background-color: #E4DDD4;
+    transition: .5s;
+    color: #242320;
+  }
+
+.animate__bounce::before {
+    content: "";
+    display: none;
+    width: 240px;
+    height: 300px;
+    top: -120px;
+    position: absolute;
+    background-image: url(/img/Rectangle\ 357.png);
+}
+

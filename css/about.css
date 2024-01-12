@@ -1,0 +1,20 @@
+.about {
+    margin-top: 150px;
+}
+
+.about__col-left,
+.about__col-right {
+    width: 50%;
+}
+
+.about__title {
+    font-size: 36px;
+    font-family: "Playfair Display", serif
+}
+
+.about__subtitle {
+    margin-top: 15px;
+    width: 325px;
+    height: 95px;
+    line-height: 120%;
+}
