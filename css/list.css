@@ -58,13 +58,5 @@ border-bottom: 1px solid;
     color: #242320;
   }
 
-.animate__bounce::before {
-    content: "";
-    display: none;
-    width: 240px;
-    height: 300px;
-    top: -120px;
-    position: absolute;
-    background-image: url(/img/Rectangle\ 357.png);
-}
+
 
