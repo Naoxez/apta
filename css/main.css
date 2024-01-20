@@ -45,6 +45,16 @@
     overflow: hidden;
 }
 
+.h4 {
+    color: var(--Text-, #E4DDD4);
+    font-family: "Neue Montreal";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+
 .txt-menu {
     font-size: 16px;
     line-height: 120%;

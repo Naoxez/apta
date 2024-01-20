@@ -23,11 +23,8 @@
     display: grid;
     grid-template-columns: repeat(4, calc(25% - 15px));
     grid-template-rows: repeat(3, 1fr);
-    row-gap: 44px;
-    column-gap: 20px;
+    grid-gap: 20px;
     margin-top: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
 }
 
 .portfolio__item-name {
@@ -61,6 +58,11 @@
    height: 250px;
    border: 1px solid #4A4A4A;
    border-radius: 50%;
+}
+
+.portfolio__item img {
+    display: block;
+    width: 100%;
 }
 
 

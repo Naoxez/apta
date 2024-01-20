@@ -1,0 +1,99 @@
+.workflow {
+    margin-top: 150px;
+}
+
+.workflow__col-left,
+.workflow__col-right {
+    width: 50%;
+}
+
+.workflow__title {
+    width: 360px;
+    font-size: 36px;
+    font-family: "Playfair Display", serif
+}
+
+.workflow__subtitle {
+    margin-top: 15px;
+    width: 307px;
+    height: 38px;
+    line-height: 120%;
+}
+
+.worflow__sliders {
+    
+    align-items: right;
+}
+
+.workflow__col-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.worflow__sliders {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;  
+}
+
+.worflow__cards {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.workflow__cards {
+    gap: 13px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.workflow__cards-border {
+    background-color: #4A4A4A;
+    width: 1px;
+    height: 228px;
+}
+
+.workflow__cards-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 144px;
+    justify-content: space-between;
+}
+
+.workflow__number {
+    font-family: "Neue Montreal";
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.workflow__description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 352px;
+}
+
+.workflow__description-name {
+    font-family: "Neue Montreal";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 22px */
+    letter-spacing: -0.22px;
+    text-transform: uppercase;
+}
+
+.workflow__description-description {
+    font-family: "Neue Montreal";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
