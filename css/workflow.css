@@ -1,5 +1,6 @@
 .workflow {
     margin-top: 150px;
+    overflow: hidden;
 }
 
 .workflow__col-left,
@@ -28,13 +29,16 @@
 .workflow__arrows {
     display: inline-flex;
     align-items: flex-start;
-    gap: 10px;  
+    gap: 10px;
+}
+
+.workflow__arrow:disabled path {
+    fill: #4A4A4A;
 }
 
 .workflow__cards {
-    gap: 13px;
-    display: flex;
     margin-top: 40px;
+    overflow: visible;
 }
 
 .workflow__card {
@@ -54,17 +58,3 @@
 .workflow__card-title {
     margin-bottom: 8px;
 }
-
-.workflow__arrow img:last-child {
-    display: none;
-}
-
-.workflow__arrow:disabled img:first-child {
-    display: none;
-}
-
-.workflow__arrow:disabled img:last-child {
-    display: block;
-}
-
- 

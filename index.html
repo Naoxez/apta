@@ -9,15 +9,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+
+
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/hero.css">
@@ -242,58 +242,85 @@
                             <p class="workflow__title h2">DISCOVER OUR PROCESS</p>
                             <p class="workflow__subtitle txt-2">When you trust Apta, you gain more than just good lighting designs, setup and installations</p>
                         </div>
-                        <div class="worfklow__arrows">
-                            <button class="workflow__arrow workflow__arrow-left" disabled>
+                        <div class="workflow__arrows">
+                            <button class="workflow__arrow workflow__arrow-left">
                                 <svg width="32" height="8" viewBox="0 0 32 8" fill="none" xmlns="http://www.w3.org/2000/svg" class="left_arrow">
-                                    <path d="M31 3.5C31.2761 3.5 31.5 3.72386 31.5 4C31.5 4.27614 31.2761 4.5 31 4.5V3.5ZM0.646444 4.35355C0.451183 4.15829 0.451183 3.84171 0.646444 3.64645L3.82842 0.464466C4.02369 0.269204 4.34027 0.269204 4.53553 0.464466C4.73079 0.659728 4.73079 0.976311 4.53553 1.17157L1.70711 4L4.53553 6.82843C4.73079 7.02369 4.73079 7.34027 4.53553 7.53553C4.34027 7.7308 4.02369 7.7308 3.82842 7.53553L0.646444 4.35355ZM31 4.5H0.999998V3.5H31V4.5Z" fill="#E4DDD4">
+                                    <path d="M31 3.5C31.2761 3.5 31.5 3.72386 31.5 4C31.5 4.27614 31.2761 4.5 31 4.5V3.5ZM0.646444 4.35355C0.451183 4.15829 0.451183 3.84171 0.646444 3.64645L3.82842 0.464466C4.02369 0.269204 4.34027 0.269204 4.53553 0.464466C4.73079 0.659728 4.73079 0.976311 4.53553 1.17157L1.70711 4L4.53553 6.82843C4.73079 7.02369 4.73079 7.34027 4.53553 7.53553C4.34027 7.7308 4.02369 7.7308 3.82842 7.53553L0.646444 4.35355ZM31 4.5H0.999998V3.5H31V4.5Z" fill="#E4DDD4"/>
                                 </svg>
-                            </button class="workflow__arrow workflow__arrow-right">
-                            <button>
-                            <svg width="32" height="8" viewBox="0 0 32 8" fill="none" xmlns="http://www.w3.org/2000/svg" class="right_arrow">
-                                <path d="M1 3.5C0.723858 3.5 0.5 3.72386 0.5 4C0.5 4.27614 0.723858 4.5 1 4.5V3.5ZM31.3536 4.35355C31.5488 4.15829 31.5488 3.84171 31.3536 3.64645L28.1716 0.464466C27.9763 0.269204 27.6597 0.269204 27.4645 0.464466C27.2692 0.659728 27.2692 0.976311 27.4645 1.17157L30.2929 4L27.4645 6.82843C27.2692 7.02369 27.2692 7.34027 27.4645 7.53553C27.6597 7.7308 27.9763 7.7308 28.1716 7.53553L31.3536 4.35355ZM1 4.5H31V3.5H1V4.5Z" fill="#E4DDD4">
-                            </svg>
-                            </button>                            
+                            </button>
+
+                            <button class="workflow__arrow workflow__arrow-right">
+                                <svg width="32" height="8" viewBox="0 0 32 8" fill="none" xmlns="http://www.w3.org/2000/svg" class="right_arrow">
+                                    <path d="M1 3.5C0.723858 3.5 0.5 3.72386 0.5 4C0.5 4.27614 0.723858 4.5 1 4.5V3.5ZM31.3536 4.35355C31.5488 4.15829 31.5488 3.84171 31.3536 3.64645L28.1716 0.464466C27.9763 0.269204 27.6597 0.269204 27.4645 0.464466C27.2692 0.659728 27.2692 0.976311 27.4645 1.17157L30.2929 4L27.4645 6.82843C27.2692 7.02369 27.2692 7.34027 27.4645 7.53553C27.6597 7.7308 27.9763 7.7308 28.1716 7.53553L31.3536 4.35355ZM1 4.5H31V3.5H1V4.5Z" fill="#E4DDD4"/>
+                                </svg>
+                            </button>
                         </div>
                     </div>
                 </div>
-                <div class="workflow__cards">
-                    <div class="workflow__card">
-                        <p class="workflow__card-number number-3">(01)</p>
-                        <div class="workflow__description">
-                            <p class="workflow__card-title h3">CLIENT BRIEFING</p>
-                            <p class="workflow__card-description txt-2">The workflow begins with a deep understanding of the client's vision and the scope of planned services.</p>
-                        </div>
-                    </div>
-                    <div class="workflow__card">
-                        <p class="workflow__card-number number-3">(02)</p>
-                        <div class="workflow__description">
-                            <p class="workflow__card-title h3">Site Survery</p>
-                            <p class="workflow__card-description txt-2">We conducts a comprehensive social research of trends, demography, geographical influence.</p>
-                        </div>
-                    </div>
-                    <div class="workflow__card">
-                        <p class="workflow__card-number number-3">(03)</p>
-                        <div class="workflow__description">
-                            <p class="workflow__card-title h3">Energy Assesment</p>
-                            <p class="workflow__card-description txt-2">Performing the calculation of the cost of fixtures and a search for areas for improvement.</p>
-                        </div>
-                    </div>
-                    <div class="workflow__card">
-                        <p class="workflow__card-number number-3">(04)</p>
-                        <div class="workflow__description">
-                            <p class="workflow__card-title h3">Planning & Designing</p>
-                            <p class="workflow__card-description txt-2">Designing 3D models and visualization techniques to co-ordinate with the architectural team.</p>
-                        </div>
-                    </div>
-                    
 
-                    </div>
+                <!-- Slider main container -->
+                <div class="workflow__cards swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="workflow__card">
+                                <p class="workflow__card-number number-3">(01)</p>
+                                <div class="workflow__description">
+                                    <p class="workflow__card-title h3">CLIENT BRIEFING</p>
+                                    <p class="workflow__card-description txt-2">The workflow begins with a deep understanding of the client's vision and the scope of planned services.</p>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="swiper-slide">
+                            <div class="workflow__card">
+                                <p class="workflow__card-number number-3">(01)</p>
+                                <div class="workflow__description">
+                                    <p class="workflow__card-title h3">CLIENT BRIEFING</p>
+                                    <p class="workflow__card-description txt-2">The workflow begins with a deep understanding of the client's vision and the scope of planned services.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="workflow__card">
+                                <p class="workflow__card-number number-3">(01)</p>
+                                <div class="workflow__description">
+                                    <p class="workflow__card-title h3">CLIENT BRIEFING</p>
+                                    <p class="workflow__card-description txt-2">The workflow begins with a deep understanding of the client's vision and the scope of planned services.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="workflow__card">
+                                <p class="workflow__card-number number-3">(01)</p>
+                                <div class="workflow__description">
+                                    <p class="workflow__card-title h3">CLIENT BRIEFING</p>
+                                    <p class="workflow__card-description txt-2">The workflow begins with a deep understanding of the client's vision and the scope of planned services.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="workflow__card">
+                                <p class="workflow__card-number number-3">(01)</p>
+                                <div class="workflow__description">
+                                    <p class="workflow__card-title h3">CLIENT BRIEFING</p>
+                                    <p class="workflow__card-description txt-2">The workflow begins with a deep understanding of the client's vision and the scope of planned services.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
     <footer class="footer"></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
