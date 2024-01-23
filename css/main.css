@@ -106,3 +106,7 @@
 .button:hover {
     border-color: #E4DDD4;
 }
+
+.section {
+    margin-top: 150px;
+}
