@@ -1,0 +1,81 @@
+.team__col-left,
+.team__col-right {
+    width: 50%;
+}
+
+.team__title {
+    font-size: 36px;
+    font-family: "Playfair Display", serif;
+    color: #E4DDD4;
+}
+
+.team__subtitle {
+    margin-top: 15px;
+    width: 360px;
+    height: 38px;
+    line-height: 120%;
+}
+
+.team__images {
+    display: grid;
+    grid-template-columns: repeat(4, calc(25% - 15px)); 
+    /* напомни почему 25%-15px */
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin-top: 40px;
+}
+
+.team__employee-name {
+    margin-top: 10px;
+}
+
+.team__employee-description {
+    margin-top: 3px;
+    color: #868686;
+}
+
+.team__employee-background {
+    font-family: "Playfair Display";
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80%; 
+    text-transform: uppercase;
+    width: 813px;
+    height: 453px;
+    color: #E4DDD433;
+    position: relative;
+    right: 35px;
+    z-index: -1;
+}
+
+.team__images:nth-child(1) {
+    position: relative;
+}
+
+.plx {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: flex;
+    padding: 9px 15px;
+    background-color: #242320;
+    border-radius: 100px;
+    height: 31px;
+    width: auto;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 110%;
+}
+
+@media (max-width: 1200px) {
+    .plx {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .team__employee-background {
+        display: none;
+    }
+}

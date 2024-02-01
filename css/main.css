@@ -88,6 +88,11 @@
     line-height: 120%; 
 }
 
+.txt-3 {
+    font-size: 14px;
+    line-height: 120%;  
+}
+
 .button {
     display: inline-flex;
     align-items: center;
